@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-[hsl(var(--mchs-light-blue))] py-6">
+      <header className="bg-slate-50 py-6">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-[hsl(var(--mchs-accent-orange))]">
@@ -33,10 +33,10 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <h1 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] uppercase">
+              <h1 className="text-lg font-bold text-slate-800 uppercase">
                 ИСПЫТАТЕЛЬНАЯ ПОЖАРНАЯ ЛАБОРАТОРИЯ
               </h1>
-              <p className="text-xs text-[hsl(var(--mchs-text-gray))] uppercase">
+              <p className="text-xs text-slate-600 uppercase">
                 ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ
               </p>
             </div>
@@ -44,11 +44,11 @@ export default function Index() {
 
           <div className="flex items-center space-x-8">
             <div className="text-right">
-              <div className="flex items-center space-x-2 text-[hsl(var(--mchs-dark-text))] font-bold">
+              <div className="flex items-center space-x-2 text-slate-800 font-bold">
                 <Phone className="w-4 h-4" />
                 <span>(812) 498-08-30</span>
               </div>
-              <div className="flex items-center space-x-2 text-[hsl(var(--mchs-dark-text))] font-bold mt-1">
+              <div className="flex items-center space-x-2 text-slate-800 font-bold mt-1">
                 <Mail className="w-4 h-4" />
                 <span>ipl.spb@ipl.78.mchs.gov.ru</span>
               </div>
@@ -61,7 +61,7 @@ export default function Index() {
       </header>
 
       {/* Navigation */}
-      <nav className="bg-[hsl(var(--mchs-primary-blue))] sticky top-0 z-50">
+      <nav className="bg-blue-900 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             <div className="flex space-x-8">
@@ -81,7 +81,7 @@ export default function Index() {
                 href="#"
                 className="text-white font-bold hover:text-gray-200 transition-colors"
               >
-                Документы
+                Докуме��ты
               </a>
               <a
                 href="#"
