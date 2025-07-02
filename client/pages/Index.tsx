@@ -127,18 +127,18 @@ export default function Index() {
 
           <div className="flex-1">
             <div className="text-white">
-              <h3 className="text-2xl font-bold mb-8 text-[hsl(var(--mchs-bright-accent))]">
+              <h3 className="text-2xl font-bold mb-8 text-pink-400">
                 Почему нам доверяют
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
                     1
                   </div>
                   <span className="text-lg">7 аттестованных специалистов</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
                     2
                   </div>
                   <span className="text-lg">
@@ -146,7 +146,7 @@ export default function Index() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
                     3
                   </div>
                   <span className="text-lg">
@@ -154,7 +154,7 @@ export default function Index() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
                     4
                   </div>
                   <span className="text-lg">
@@ -173,7 +173,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Main Service Card */}
             <div className="md:col-span-2 lg:col-span-1 lg:row-span-2">
-              <div className="bg-[hsl(var(--mchs-secondary-blue))] text-white p-8 rounded-lg h-full flex flex-col justify-between min-h-[400px]">
+              <div className="bg-blue-800 text-white p-8 rounded-lg h-full flex flex-col justify-between min-h-[400px]">
                 <div>
                   <div className="w-32 h-40 mx-auto mb-6 bg-white/20 rounded-lg flex items-center justify-center">
                     <Beaker className="w-16 h-16" />
