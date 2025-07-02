@@ -39,15 +39,16 @@
 
     --radius: 0.5rem;
 
-    /* IPL-MO specific colors */
-    --ipl-primary-blue: 207 99% 24%;
-    --ipl-secondary-blue: 201 100% 31%;
-    --ipl-accent-orange: 25 95% 53%;
-    --ipl-button-orange: 22 100% 50%;
-    --ipl-light-blue: 214 41% 95%;
-    --ipl-process-bg: 214 32% 96%;
-    --ipl-text-gray: 215 16% 56%;
-    --ipl-dark-text: 221 23% 34%;
+    /* MChS official colors */
+    --mchs-primary-blue: 220 100% 25%;
+    --mchs-secondary-blue: 220 80% 35%;
+    --mchs-accent-orange: 25 100% 55%;
+    --mchs-button-orange: 25 100% 50%;
+    --mchs-light-blue: 220 40% 95%;
+    --mchs-process-bg: 220 30% 96%;
+    --mchs-text-gray: 220 15% 55%;
+    --mchs-dark-text: 220 25% 25%;
+    --mchs-bright-accent: 350 85% 60%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -95,15 +96,16 @@
     --input: 207 50% 18%;
     --ring: 201 100% 31%;
 
-    /* IPL-MO specific dark colors */
-    --ipl-primary-blue: 201 100% 31%;
-    --ipl-secondary-blue: 195 100% 35%;
-    --ipl-accent-orange: 25 95% 53%;
-    --ipl-button-orange: 22 100% 50%;
-    --ipl-light-blue: 207 50% 15%;
-    --ipl-process-bg: 207 50% 12%;
-    --ipl-text-gray: 215 20% 65%;
-    --ipl-dark-text: 0 0% 85%;
+    /* MChS specific dark colors */
+    --mchs-primary-blue: 220 80% 35%;
+    --mchs-secondary-blue: 220 70% 40%;
+    --mchs-accent-orange: 25 100% 55%;
+    --mchs-button-orange: 25 100% 50%;
+    --mchs-light-blue: 220 50% 15%;
+    --mchs-process-bg: 220 50% 12%;
+    --mchs-text-gray: 220 20% 65%;
+    --mchs-dark-text: 0 0% 85%;
+    --mchs-bright-accent: 350 85% 60%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
