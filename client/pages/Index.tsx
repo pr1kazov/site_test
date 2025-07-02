@@ -17,10 +17,10 @@ export default function Index() {
       <header className="bg-slate-50 py-6">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-[hsl(var(--mchs-accent-orange))]">
+            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-orange-500">
               <div className="relative">
-                <div className="w-12 h-12 bg-[hsl(var(--mchs-accent-orange))] rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-[hsl(var(--mchs-primary-blue))] rounded-sm flex items-center justify-center">
+                <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-blue-900 rounded-sm flex items-center justify-center">
                     <div
                       className="w-4 h-4 bg-white"
                       style={{
@@ -342,7 +342,7 @@ export default function Index() {
                 <p className="text-slate-600">
                   Понедельник - Пятница: 9:00 - 18:00
                   <br />
-                  Суббота - Воск��есенье: выходной
+                  Суббота - Воскресенье: выходной
                 </p>
               </div>
             </div>
