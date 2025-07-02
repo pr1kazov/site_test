@@ -54,7 +54,7 @@ export default function Index() {
               </div>
             </div>
             <Button variant="white" size="lg">
-              Задать воп��ос
+              Задать вопрос
             </Button>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Main Service Card */}
             <div className="md:col-span-2 lg:col-span-1 lg:row-span-2">
-              <div className="bg-[hsl(var(--ipl-secondary-blue))] text-white p-8 rounded-lg h-full flex flex-col justify-between min-h-[400px]">
+              <div className="bg-[hsl(var(--mchs-secondary-blue))] text-white p-8 rounded-lg h-full flex flex-col justify-between min-h-[400px]">
                 <div>
                   <div className="w-32 h-40 mx-auto mb-6 bg-white/20 rounded-lg flex items-center justify-center">
                     <Beaker className="w-16 h-16" />
@@ -193,49 +193,49 @@ export default function Index() {
             {/* Service Cards */}
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--ipl-light-blue))] rounded-lg flex items-center justify-center">
-                  <Users className="w-10 h-10 text-[hsl(var(--ipl-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
+                  <Users className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--ipl-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
                   Экспертные заключения
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--ipl-text-gray))] group-hover:text-[hsl(var(--ipl-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--ipl-light-blue))] rounded-lg flex items-center justify-center">
-                  <CheckCircle className="w-10 h-10 text-[hsl(var(--ipl-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
+                  <CheckCircle className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--ipl-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
                   Определение соответствия
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--ipl-text-gray))] group-hover:text-[hsl(var(--ipl-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--ipl-light-blue))] rounded-lg flex items-center justify-center">
-                  <Settings className="w-10 h-10 text-[hsl(var(--ipl-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
+                  <Settings className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--ipl-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
                   Испытания веществ и материалов
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--ipl-text-gray))] group-hover:text-[hsl(var(--ipl-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--ipl-light-blue))] rounded-lg flex items-center justify-center">
-                  <Award className="w-10 h-10 text-[hsl(var(--ipl-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
+                  <Award className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--ipl-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
                   Сертификация продукции
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--ipl-text-gray))] group-hover:text-[hsl(var(--ipl-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
               </div>
             </div>
           </div>
@@ -243,9 +243,9 @@ export default function Index() {
       </section>
 
       {/* Process Steps Section */}
-      <section className="py-20 bg-[hsl(var(--ipl-process-bg))]">
+      <section className="py-20 bg-[hsl(var(--mchs-process-bg))]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-[hsl(var(--ipl-dark-text))] mb-12">
+          <h2 className="text-3xl font-bold text-center text-[hsl(var(--mchs-dark-text))] mb-12">
             Этапы работы
           </h2>
           <div className="flex flex-wrap justify-center items-center gap-8">
@@ -260,16 +260,16 @@ export default function Index() {
               <div key={step.number} className="flex items-center">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                    <span className="text-2xl font-bold text-[hsl(var(--ipl-primary-blue))]">
+                    <span className="text-2xl font-bold text-[hsl(var(--mchs-primary-blue))]">
                       {step.number}
                     </span>
                   </div>
-                  <p className="text-sm font-semibold text-[hsl(var(--ipl-text-gray))] max-w-24">
+                  <p className="text-sm font-semibold text-[hsl(var(--mchs-text-gray))] max-w-24">
                     {step.title}
                   </p>
                 </div>
                 {index < 5 && (
-                  <ArrowRight className="w-6 h-6 text-[hsl(var(--ipl-text-gray))] mx-4" />
+                  <ArrowRight className="w-6 h-6 text-[hsl(var(--mchs-text-gray))] mx-4" />
                 )}
               </div>
             ))}
@@ -278,7 +278,7 @@ export default function Index() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 bg-gradient-to-r from-[hsl(var(--ipl-primary-blue))] to-[hsl(var(--ipl-secondary-blue))]">
+      <section className="py-20 bg-gradient-to-r from-[hsl(var(--mchs-primary-blue))] to-[hsl(var(--mchs-secondary-blue))]">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-white mb-12">
             Свяжитесь с нами
@@ -287,17 +287,17 @@ export default function Index() {
             <input
               type="text"
               placeholder="Ваше имя"
-              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--ipl-dark-text))] placeholder-[hsl(var(--ipl-text-gray))] focus:ring-2 focus:ring-[hsl(var(--ipl-accent-orange))] focus:outline-none"
+              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--mchs-dark-text))] placeholder-[hsl(var(--mchs-text-gray))] focus:ring-2 focus:ring-[hsl(var(--mchs-accent-orange))] focus:outline-none"
             />
             <input
               type="tel"
               placeholder="(999) 999-99-99"
-              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--ipl-dark-text))] placeholder-[hsl(var(--ipl-text-gray))] focus:ring-2 focus:ring-[hsl(var(--ipl-accent-orange))] focus:outline-none"
+              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--mchs-dark-text))] placeholder-[hsl(var(--mchs-text-gray))] focus:ring-2 focus:ring-[hsl(var(--mchs-accent-orange))] focus:outline-none"
             />
             <input
               type="text"
               placeholder="Ваш вопрос"
-              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--ipl-dark-text))] placeholder-[hsl(var(--ipl-text-gray))] focus:ring-2 focus:ring-[hsl(var(--ipl-accent-orange))] focus:outline-none"
+              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--mchs-dark-text))] placeholder-[hsl(var(--mchs-text-gray))] focus:ring-2 focus:ring-[hsl(var(--mchs-accent-orange))] focus:outline-none"
             />
             <div className="md:col-span-3 text-center">
               <Button variant="orange" size="lg" className="px-12">
@@ -308,10 +308,72 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Map Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center text-[hsl(var(--mchs-dark-text))] mb-12">
+            Как нас найти
+          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div className="bg-[hsl(var(--mchs-light-blue))] p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
+                  Контактная информация
+                </h3>
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <Phone className="w-5 h-5 text-[hsl(var(--mchs-primary-blue))]" />
+                    <span className="font-semibold text-[hsl(var(--mchs-dark-text))]">
+                      (812) 498-08-30
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Mail className="w-5 h-5 text-[hsl(var(--mchs-primary-blue))]" />
+                    <span className="font-semibold text-[hsl(var(--mchs-dark-text))]">
+                      ipl.spb@ipl.78.mchs.gov.ru
+                    </span>
+                  </div>
+                </div>
+                <p className="text-sm text-[hsl(var(--mchs-text-gray))] mt-4">
+                  Для отправки документов и запросов
+                </p>
+              </div>
+
+              <div className="bg-[hsl(var(--mchs-bright-accent))]/10 p-6 rounded-lg border-l-4 border-[hsl(var(--mchs-bright-accent))]">
+                <h4 className="font-bold text-[hsl(var(--mchs-dark-text))] mb-2">
+                  Время работы
+                </h4>
+                <p className="text-[hsl(var(--mchs-text-gray))]">
+                  Понедельник - Пятница: 9:00 - 18:00
+                  <br />
+                  Суббота - Воскресенье: выходной
+                </p>
+              </div>
+            </div>
+
+            <div className="h-96 bg-gray-200 rounded-lg flex items-center justify-center border-2 border-[hsl(var(--mchs-accent-orange))]">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="text-white text-2xl">📍</div>
+                </div>
+                <p className="text-[hsl(var(--mchs-text-gray))] font-semibold">
+                  Интерактивная карта
+                </p>
+                <p className="text-sm text-[hsl(var(--mchs-text-gray))] mt-2">
+                  Санкт-Петербург
+                  <br />
+                  Испытательная Пожарная Лаборатория
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-white">
-        <div className="h-1 bg-[hsl(var(--ipl-accent-orange))]"></div>
-        <div className="bg-[hsl(var(--ipl-primary-blue))] py-8">
+        <div className="h-1 bg-[hsl(var(--mchs-accent-orange))]"></div>
+        <div className="bg-[hsl(var(--mchs-primary-blue))] py-8">
           <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
             <div className="flex space-x-8">
               <a
@@ -352,7 +414,7 @@ export default function Index() {
               </a>
             </div>
             <div className="text-white/70 text-sm">
-              © 2024 ФГБУ СЭУФПС ИПЛ по МО
+              © 2024 ФГБУ СЭУФПС ИПЛ по СПб
             </div>
           </div>
         </div>
