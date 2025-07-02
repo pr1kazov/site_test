@@ -12,7 +12,7 @@ const buttonVariants = cva(
         default:
           "bg-primary text-primary-foreground hover:bg-primary/90 rounded-md shadow-md hover:shadow-lg",
         orange:
-          "bg-[hsl(var(--ipl-button-orange))] text-white hover:bg-[hsl(var(--ipl-button-orange))]/90 rounded-lg shadow-md hover:shadow-lg",
+          "bg-[hsl(var(--mchs-button-orange))] text-white hover:bg-[hsl(var(--mchs-button-orange))]/90 rounded-lg shadow-md hover:shadow-lg",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-md",
         outline:
