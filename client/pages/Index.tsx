@@ -14,17 +14,29 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-[hsl(var(--ipl-light-blue))] py-6">
+      <header className="bg-[hsl(var(--mchs-light-blue))] py-6">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <div className="w-20 h-20 bg-[hsl(var(--ipl-accent-orange))] rounded-full flex items-center justify-center">
-              <div className="text-white font-bold text-lg">ИПЛ</div>
+            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-[hsl(var(--mchs-accent-orange))]">
+              <div className="relative">
+                <div className="w-12 h-12 bg-[hsl(var(--mchs-accent-orange))] rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-[hsl(var(--mchs-primary-blue))] rounded-sm flex items-center justify-center">
+                    <div
+                      className="w-4 h-4 bg-white"
+                      style={{
+                        clipPath:
+                          "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
+                      }}
+                    ></div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
-              <h1 className="text-lg font-bold text-[hsl(var(--ipl-dark-text))] uppercase">
+              <h1 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] uppercase">
                 ИСПЫТАТЕЛЬНАЯ ПОЖАРНАЯ ЛАБОРАТОРИЯ
               </h1>
-              <p className="text-xs text-[hsl(var(--ipl-text-gray))] uppercase">
+              <p className="text-xs text-[hsl(var(--mchs-text-gray))] uppercase">
                 ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ
               </p>
             </div>
@@ -32,24 +44,24 @@ export default function Index() {
 
           <div className="flex items-center space-x-8">
             <div className="text-right">
-              <div className="flex items-center space-x-2 text-[hsl(var(--ipl-dark-text))] font-bold">
+              <div className="flex items-center space-x-2 text-[hsl(var(--mchs-dark-text))] font-bold">
                 <Phone className="w-4 h-4" />
-                <span>+7 (496) 753-17-57</span>
+                <span>(812) 498-08-30</span>
               </div>
-              <div className="flex items-center space-x-2 text-[hsl(var(--ipl-dark-text))] font-bold mt-1">
+              <div className="flex items-center space-x-2 text-[hsl(var(--mchs-dark-text))] font-bold mt-1">
                 <Mail className="w-4 h-4" />
-                <span>ipl-mo50@mail.ru</span>
+                <span>ipl.spb@ipl.78.mchs.gov.ru</span>
               </div>
             </div>
             <Button variant="white" size="lg">
-              Задать вопрос
+              Задать воп��ос
             </Button>
           </div>
         </div>
       </header>
 
       {/* Navigation */}
-      <nav className="bg-[hsl(var(--ipl-primary-blue))] sticky top-0 z-50">
+      <nav className="bg-[hsl(var(--mchs-primary-blue))] sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             <div className="flex space-x-8">
@@ -92,22 +104,22 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className="h-1 bg-[hsl(var(--ipl-accent-orange))]"></div>
+        <div className="h-1 bg-[hsl(var(--mchs-accent-orange))]"></div>
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[hsl(var(--ipl-primary-blue))] to-[hsl(var(--ipl-secondary-blue))] py-20">
+      <section className="bg-gradient-to-r from-[hsl(var(--mchs-primary-blue))] to-[hsl(var(--mchs-secondary-blue))] py-20">
         <div className="max-w-7xl mx-auto px-6 flex items-center">
           <div className="flex-1">
             <div className="flex items-center space-x-6">
-              <div className="w-24 h-32 bg-white rounded-lg flex items-center justify-center">
-                <div className="text-[hsl(var(--ipl-primary-blue))] font-bold text-2xl">
+              <div className="w-24 h-32 bg-white rounded-lg flex items-center justify-center shadow-lg">
+                <div className="text-[hsl(var(--mchs-primary-blue))] font-bold text-2xl">
                   МЧС
                 </div>
               </div>
               <div className="text-white">
                 <h2 className="text-4xl font-bold mb-2">МЧС России</h2>
-                <div className="w-80 h-1 bg-[hsl(var(--ipl-accent-orange))] mb-4"></div>
+                <div className="w-80 h-1 bg-[hsl(var(--mchs-accent-orange))] mb-4"></div>
                 <p className="text-xl font-semibold">
                   Испытательная Пожарная Лаборатория
                 </p>
@@ -117,16 +129,18 @@ export default function Index() {
 
           <div className="flex-1">
             <div className="text-white">
-              <h3 className="text-2xl font-bold mb-8">Почему нам доверяют</h3>
+              <h3 className="text-2xl font-bold mb-8 text-[hsl(var(--mchs-bright-accent))]">
+                Почему нам доверяют
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--ipl-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
                     1
                   </div>
                   <span className="text-lg">7 аттестованных специалистов</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--ipl-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
                     2
                   </div>
                   <span className="text-lg">
@@ -134,7 +148,7 @@ export default function Index() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--ipl-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
                     3
                   </div>
                   <span className="text-lg">
@@ -142,7 +156,7 @@ export default function Index() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-[hsl(var(--ipl-primary-blue))] rounded-full flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 bg-white text-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center font-bold">
                     4
                   </div>
                   <span className="text-lg">
