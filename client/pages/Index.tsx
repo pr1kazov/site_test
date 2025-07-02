@@ -191,49 +191,49 @@ export default function Index() {
             {/* Service Cards */}
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
-                  <Users className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <Users className="w-10 h-10 text-blue-900" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Экспертные заключения
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
-                  <CheckCircle className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <CheckCircle className="w-10 h-10 text-blue-900" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Определение соответствия
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
-                  <Settings className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <Settings className="w-10 h-10 text-blue-900" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Испытания веществ и материалов
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
-                <div className="w-20 h-24 mx-auto mb-4 bg-[hsl(var(--mchs-light-blue))] rounded-lg flex items-center justify-center">
-                  <Award className="w-10 h-10 text-[hsl(var(--mchs-primary-blue))]" />
+                <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <Award className="w-10 h-10 text-blue-900" />
                 </div>
-                <h3 className="text-lg font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
+                <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Сертификация продукции
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-[hsl(var(--mchs-text-gray))] group-hover:text-[hsl(var(--mchs-primary-blue))] transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
               </div>
             </div>
           </div>
@@ -241,9 +241,9 @@ export default function Index() {
       </section>
 
       {/* Process Steps Section */}
-      <section className="py-20 bg-[hsl(var(--mchs-process-bg))]">
+      <section className="py-20 bg-slate-100">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-[hsl(var(--mchs-dark-text))] mb-12">
+          <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
             Этапы работы
           </h2>
           <div className="flex flex-wrap justify-center items-center gap-8">
@@ -333,7 +333,7 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-sm text-[hsl(var(--mchs-text-gray))] mt-4">
-                  Для отправки документов и запросов
+                  Для отправки документов и за��росов
                 </p>
               </div>
 
