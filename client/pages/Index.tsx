@@ -309,55 +309,53 @@ export default function Index() {
       {/* Map Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-[hsl(var(--mchs-dark-text))] mb-12">
+          <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
             Как нас найти
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <div className="bg-[hsl(var(--mchs-light-blue))] p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-[hsl(var(--mchs-dark-text))] mb-4">
+              <div className="bg-slate-100 p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-slate-800 mb-4">
                   Контактная информация
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
-                    <Phone className="w-5 h-5 text-[hsl(var(--mchs-primary-blue))]" />
-                    <span className="font-semibold text-[hsl(var(--mchs-dark-text))]">
+                    <Phone className="w-5 h-5 text-blue-900" />
+                    <span className="font-semibold text-slate-800">
                       (812) 498-08-30
                     </span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Mail className="w-5 h-5 text-[hsl(var(--mchs-primary-blue))]" />
-                    <span className="font-semibold text-[hsl(var(--mchs-dark-text))]">
+                    <Mail className="w-5 h-5 text-blue-900" />
+                    <span className="font-semibold text-slate-800">
                       ipl.spb@ipl.78.mchs.gov.ru
                     </span>
                   </div>
                 </div>
-                <p className="text-sm text-[hsl(var(--mchs-text-gray))] mt-4">
+                <p className="text-sm text-slate-600 mt-4">
                   Для отправки документов и запросов
                 </p>
               </div>
 
-              <div className="bg-[hsl(var(--mchs-bright-accent))]/10 p-6 rounded-lg border-l-4 border-[hsl(var(--mchs-bright-accent))]">
-                <h4 className="font-bold text-[hsl(var(--mchs-dark-text))] mb-2">
-                  Время работы
-                </h4>
-                <p className="text-[hsl(var(--mchs-text-gray))]">
+              <div className="bg-pink-50 p-6 rounded-lg border-l-4 border-pink-400">
+                <h4 className="font-bold text-slate-800 mb-2">Время работы</h4>
+                <p className="text-slate-600">
                   Понедельник - Пятница: 9:00 - 18:00
                   <br />
-                  Суббота - Воскресенье: выходной
+                  Суббота - Воск��есенье: выходной
                 </p>
               </div>
             </div>
 
-            <div className="h-96 bg-gray-200 rounded-lg flex items-center justify-center border-2 border-[hsl(var(--mchs-accent-orange))]">
+            <div className="h-96 bg-gray-200 rounded-lg flex items-center justify-center border-2 border-orange-500">
               <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--mchs-primary-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                   <div className="text-white text-2xl">📍</div>
                 </div>
-                <p className="text-[hsl(var(--mchs-text-gray))] font-semibold">
+                <p className="text-slate-600 font-semibold">
                   Интерактивная карта
                 </p>
-                <p className="text-sm text-[hsl(var(--mchs-text-gray))] mt-2">
+                <p className="text-sm text-slate-600 mt-2">
                   Санкт-Петербург
                   <br />
                   Испытательная Пожарная Лаборатория
@@ -371,7 +369,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="bg-white">
         <div className="h-1 bg-orange-500"></div>
-        <div className="bg-[hsl(var(--mchs-primary-blue))] py-8">
+        <div className="bg-blue-900 py-8">
           <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
             <div className="flex space-x-8">
               <a
