@@ -81,7 +81,7 @@ export default function Index() {
                 href="#"
                 className="text-white font-bold hover:text-gray-200 transition-colors"
               >
-                Докуме��ты
+                Документы
               </a>
               <a
                 href="#"
@@ -104,22 +104,20 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className="h-1 bg-[hsl(var(--mchs-accent-orange))]"></div>
+        <div className="h-1 bg-orange-500"></div>
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[hsl(var(--mchs-primary-blue))] to-[hsl(var(--mchs-secondary-blue))] py-20">
+      <section className="bg-gradient-to-r from-blue-900 to-blue-800 py-20">
         <div className="max-w-7xl mx-auto px-6 flex items-center">
           <div className="flex-1">
             <div className="flex items-center space-x-6">
               <div className="w-24 h-32 bg-white rounded-lg flex items-center justify-center shadow-lg">
-                <div className="text-[hsl(var(--mchs-primary-blue))] font-bold text-2xl">
-                  МЧС
-                </div>
+                <div className="text-blue-900 font-bold text-2xl">МЧС</div>
               </div>
               <div className="text-white">
                 <h2 className="text-4xl font-bold mb-2">МЧС России</h2>
-                <div className="w-80 h-1 bg-[hsl(var(--mchs-accent-orange))] mb-4"></div>
+                <div className="w-80 h-1 bg-orange-500 mb-4"></div>
                 <p className="text-xl font-semibold">
                   Испытательная Пожарная Лаборатория
                 </p>
@@ -372,7 +370,7 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="bg-white">
-        <div className="h-1 bg-[hsl(var(--mchs-accent-orange))]"></div>
+        <div className="h-1 bg-orange-500"></div>
         <div className="bg-[hsl(var(--mchs-primary-blue))] py-8">
           <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
             <div className="flex space-x-8">
