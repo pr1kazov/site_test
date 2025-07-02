@@ -258,16 +258,16 @@ export default function Index() {
               <div key={step.number} className="flex items-center">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                    <span className="text-2xl font-bold text-[hsl(var(--mchs-primary-blue))]">
+                    <span className="text-2xl font-bold text-blue-900">
                       {step.number}
                     </span>
                   </div>
-                  <p className="text-sm font-semibold text-[hsl(var(--mchs-text-gray))] max-w-24">
+                  <p className="text-sm font-semibold text-slate-600 max-w-24">
                     {step.title}
                   </p>
                 </div>
                 {index < 5 && (
-                  <ArrowRight className="w-6 h-6 text-[hsl(var(--mchs-text-gray))] mx-4" />
+                  <ArrowRight className="w-6 h-6 text-slate-500 mx-4" />
                 )}
               </div>
             ))}
@@ -276,7 +276,7 @@ export default function Index() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 bg-gradient-to-r from-[hsl(var(--mchs-primary-blue))] to-[hsl(var(--mchs-secondary-blue))]">
+      <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-800">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-white mb-12">
             Свяжитесь с нами
@@ -285,17 +285,17 @@ export default function Index() {
             <input
               type="text"
               placeholder="Ваше имя"
-              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--mchs-dark-text))] placeholder-[hsl(var(--mchs-text-gray))] focus:ring-2 focus:ring-[hsl(var(--mchs-accent-orange))] focus:outline-none"
+              className="h-15 px-4 rounded-lg border-0 bg-white text-slate-800 placeholder-slate-500 focus:ring-2 focus:ring-orange-500 focus:outline-none"
             />
             <input
               type="tel"
               placeholder="(999) 999-99-99"
-              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--mchs-dark-text))] placeholder-[hsl(var(--mchs-text-gray))] focus:ring-2 focus:ring-[hsl(var(--mchs-accent-orange))] focus:outline-none"
+              className="h-15 px-4 rounded-lg border-0 bg-white text-slate-800 placeholder-slate-500 focus:ring-2 focus:ring-orange-500 focus:outline-none"
             />
             <input
               type="text"
               placeholder="Ваш вопрос"
-              className="h-15 px-4 rounded-lg border-0 bg-white text-[hsl(var(--mchs-dark-text))] placeholder-[hsl(var(--mchs-text-gray))] focus:ring-2 focus:ring-[hsl(var(--mchs-accent-orange))] focus:outline-none"
+              className="h-15 px-4 rounded-lg border-0 bg-white text-slate-800 placeholder-slate-500 focus:ring-2 focus:ring-orange-500 focus:outline-none"
             />
             <div className="md:col-span-3 text-center">
               <Button variant="orange" size="lg" className="px-12">
@@ -333,7 +333,7 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-sm text-[hsl(var(--mchs-text-gray))] mt-4">
-                  Для отправки документов и за��росов
+                  Для отправки документов и запросов
                 </p>
               </div>
 
