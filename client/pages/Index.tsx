@@ -111,7 +111,8 @@ export default function Index() {
                     <Beaker className="w-16 h-16" />
                   </div>
                   <h3 className="text-2xl font-bold text-center mb-4">
-                    Испытания противопожарных материалов
+                    Экспертная оценка автоматических систем противопожарной
+                    защиты
                   </h3>
                 </div>
                 <div className="text-center">
@@ -127,7 +128,7 @@ export default function Index() {
                   <Users className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
-                  Экспертные заключения
+                  Экспертиза пожаров
                 </h3>
                 <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
@@ -139,7 +140,7 @@ export default function Index() {
                   <CheckCircle className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
-                  Определение соответствия
+                  Оснащение
                 </h3>
                 <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
@@ -151,7 +152,7 @@ export default function Index() {
                   <Settings className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
-                  Испытания веществ и материалов
+                  Экспертная оценка огнезащиты строительных конструкций
                 </h3>
                 <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
@@ -163,7 +164,7 @@ export default function Index() {
                   <Award className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
-                  Сертификация продукции
+                  Полезная информация
                 </h3>
                 <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
@@ -338,11 +339,11 @@ export default function Index() {
                 href="#"
                 className="text-white font-bold hover:text-gray-200 transition-colors"
               >
-                Конт��кты
+                Контакты
               </a>
             </div>
             <div className="text-white/70 text-sm">
-              © 2024 ФГБУ СЭУФПС ИПЛ по СПб
+              © 2024 ФГБУ СЭУФПС ИПЛ п�� СПб
             </div>
           </div>
         </div>
