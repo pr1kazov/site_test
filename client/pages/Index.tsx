@@ -107,66 +107,6 @@ export default function Index() {
         <div className="h-1 bg-orange-500"></div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-800 py-20">
-        <div className="max-w-7xl mx-auto px-6 flex items-center">
-          <div className="flex-1">
-            <div className="flex items-center space-x-6">
-              <div className="w-24 h-32 bg-white rounded-lg flex items-center justify-center shadow-lg">
-                <div className="text-blue-900 font-bold text-2xl">МЧС</div>
-              </div>
-              <div className="text-white">
-                <h2 className="text-4xl font-bold mb-2">МЧС России</h2>
-                <div className="w-80 h-1 bg-orange-500 mb-4"></div>
-                <p className="text-xl font-semibold">
-                  Испытательная Пожарная Лаборатория
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex-1">
-            <div className="text-white">
-              <h3 className="text-2xl font-bold mb-8 text-pink-400">
-                Почему нам доверяют
-              </h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
-                    1
-                  </div>
-                  <span className="text-lg">7 аттестованных специалистов</span>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
-                    2
-                  </div>
-                  <span className="text-lg">
-                    9 допусков на самостоятельное проведение работ
-                  </span>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
-                    3
-                  </div>
-                  <span className="text-lg">
-                    Современное испытательное оборудование
-                  </span>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-8 h-8 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold">
-                    4
-                  </div>
-                  <span className="text-lg">
-                    Все виды проверок, аудит в области пожарной безопасности
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
