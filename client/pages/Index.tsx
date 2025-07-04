@@ -61,7 +61,7 @@ export default function Index() {
       </header>
 
       {/* Navigation */}
-      <nav className="bg-blue-900 sticky top-0 z-50">
+      <nav className="bg-blue-darkest sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             <div className="flex space-x-8">
@@ -216,7 +216,7 @@ export default function Index() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-800">
+      <section className="py-20 bg-gradient-to-r from-blue-darkest to-blue-medium">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-white mb-12">
             Свяжитесь с нами
@@ -309,7 +309,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="bg-white">
         <div className="h-1 bg-orange-500"></div>
-        <div className="bg-blue-900 py-8">
+        <div className="bg-blue-darkest py-8">
           <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
             <div className="flex space-x-8">
               <a
