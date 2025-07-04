@@ -73,25 +73,25 @@ export default function Index() {
                 href="#"
                 className="text-white font-bold hover:text-gray-200 transition-colors"
               >
-                Документы
-              </a>
-              <a
-                href="#"
-                className="text-white font-bold hover:text-gray-200 transition-colors"
-              >
-                О лаборатории
-              </a>
-              <a
-                href="#"
-                className="text-white font-bold hover:text-gray-200 transition-colors"
-              >
-                Противодействие коррупции
+                Жалобы и предложения
               </a>
               <a
                 href="#"
                 className="text-white font-bold hover:text-gray-200 transition-colors"
               >
                 Контакты
+              </a>
+              <a
+                href="#"
+                className="text-white font-bold hover:text-gray-200 transition-colors"
+              >
+                Вакансии
+              </a>
+              <a
+                href="#"
+                className="text-white font-bold hover:text-gray-200 transition-colors"
+              >
+                О лаборатории
               </a>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function Index() {
                   <Settings className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
-                  Экспертная оценка огнезащиты строительных конструкций
+                  Экспертная оценк�� огнезащиты строительных конструкций
                 </h3>
                 <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
@@ -321,19 +321,7 @@ export default function Index() {
                 href="#"
                 className="text-white font-bold hover:text-gray-200 transition-colors"
               >
-                Документы
-              </a>
-              <a
-                href="#"
-                className="text-white font-bold hover:text-gray-200 transition-colors"
-              >
-                О лаборатории
-              </a>
-              <a
-                href="#"
-                className="text-white font-bold hover:text-gray-200 transition-colors"
-              >
-                Противодействие коррупции
+                Жалобы и предложения
               </a>
               <a
                 href="#"
@@ -341,9 +329,21 @@ export default function Index() {
               >
                 Контакты
               </a>
+              <a
+                href="#"
+                className="text-white font-bold hover:text-gray-200 transition-colors"
+              >
+                Вакансии
+              </a>
+              <a
+                href="#"
+                className="text-white font-bold hover:text-gray-200 transition-colors"
+              >
+                О лаборатории
+              </a>
             </div>
             <div className="text-white/70 text-sm">
-              © 2024 ФГБУ СЭУФПС ИПЛ п�� СПб
+              © 2024 ФГБУ СЭУФПС ИПЛ по СПб
             </div>
           </div>
         </div>
