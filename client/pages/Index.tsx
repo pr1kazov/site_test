@@ -20,7 +20,7 @@ export default function Index() {
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-orange-500">
               <div className="relative">
                 <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-blue-900 rounded-sm flex items-center justify-center">
+                  <div className="w-8 h-8 bg-blue-darkest rounded-sm flex items-center justify-center">
                     <div
                       className="w-4 h-4 bg-white"
                       style={{
@@ -113,7 +113,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Main Service Card */}
             <div className="md:col-span-2 lg:col-span-1 lg:row-span-2">
-              <div className="bg-blue-800 text-white p-8 rounded-lg h-full flex flex-col justify-between min-h-[400px]">
+              <div className="bg-blue-medium text-white p-8 rounded-lg h-full flex flex-col justify-between min-h-[400px]">
                 <div>
                   <div className="w-32 h-40 mx-auto mb-6 bg-white/20 rounded-lg flex items-center justify-center">
                     <Beaker className="w-16 h-16" />
@@ -132,48 +132,48 @@ export default function Index() {
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
                 <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
-                  <Users className="w-10 h-10 text-blue-900" />
+                  <Users className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Экспертные заключения
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
                 <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
-                  <CheckCircle className="w-10 h-10 text-blue-900" />
+                  <CheckCircle className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Определение соответствия
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
                 <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
-                  <Settings className="w-10 h-10 text-blue-900" />
+                  <Settings className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Испытания веществ и материалов
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
             </div>
 
             <div className="bg-white border-2 border-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="text-center">
                 <div className="w-20 h-24 mx-auto mb-4 bg-slate-100 rounded-lg flex items-center justify-center">
-                  <Award className="w-10 h-10 text-blue-900" />
+                  <Award className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
                   Сертификация продукции
                 </h3>
-                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-900 transition-colors" />
+                <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default function Index() {
               <div key={step.number} className="flex items-center">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 shadow-md">
-                    <span className="text-2xl font-bold text-blue-900">
+                    <span className="text-2xl font-bold text-blue-darkest">
                       {step.number}
                     </span>
                   </div>
@@ -260,13 +260,13 @@ export default function Index() {
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
-                    <Phone className="w-5 h-5 text-blue-900" />
+                    <Phone className="w-5 h-5 text-blue-darkest" />
                     <span className="font-semibold text-slate-800">
                       (812) 498-08-30
                     </span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Mail className="w-5 h-5 text-blue-900" />
+                    <Mail className="w-5 h-5 text-blue-darkest" />
                     <span className="font-semibold text-slate-800">
                       ipl.spb@ipl.78.mchs.gov.ru
                     </span>
@@ -289,7 +289,7 @@ export default function Index() {
 
             <div className="h-96 bg-gray-200 rounded-lg flex items-center justify-center border-2 border-orange-500">
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-blue-darkest rounded-full flex items-center justify-center mx-auto mb-4">
                   <div className="text-white text-2xl">📍</div>
                 </div>
                 <p className="text-slate-600 font-semibold">
