@@ -128,7 +128,7 @@ export default function Index() {
                   <Users className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
-                  Экспертиза пожаров
+                  Экспертиза по��аров
                 </h3>
                 <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
@@ -152,7 +152,7 @@ export default function Index() {
                   <Settings className="w-10 h-10 text-blue-darkest" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 mb-4">
-                  Экспертная оценк�� огнезащиты строительных конструкций
+                  Экспертная оценка огнезащиты строительных конструкций
                 </h3>
                 <ArrowRight className="w-4 h-4 mx-auto text-slate-500 group-hover:text-blue-darkest transition-colors" />
               </div>
