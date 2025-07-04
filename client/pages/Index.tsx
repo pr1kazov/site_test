@@ -17,20 +17,12 @@ export default function Index() {
       <header className="bg-slate-50 py-6">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-orange-500">
-              <div className="relative">
-                <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-blue-darkest rounded-sm flex items-center justify-center">
-                    <div
-                      className="w-4 h-4 bg-white"
-                      style={{
-                        clipPath:
-                          "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
-                      }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
+            <div className="w-20 h-20 flex items-center justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F341de0278bc9410785e95edc71a80dc6%2F80083eb9cf564a55b2810d1c6ca49c65?format=webp&width=800"
+                alt="Логотип МЧС России"
+                className="w-20 h-20 object-contain"
+              />
             </div>
             <div>
               <h1 className="text-lg font-bold text-slate-800 uppercase">
@@ -346,7 +338,7 @@ export default function Index() {
                 href="#"
                 className="text-white font-bold hover:text-gray-200 transition-colors"
               >
-                Контакты
+                Конт��кты
               </a>
             </div>
             <div className="text-white/70 text-sm">
